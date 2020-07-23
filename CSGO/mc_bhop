@@ -1,0 +1,29 @@
+sv_enablebunnyhopping 1
+mp_friendlyfire 0
+mp_solid_teammates 0
+sv_falldamage_scale 0
+sv_airaccelerate 12
+sv_autobunnyhopping 0
+mp_respawn_on_death_t 1
+mp_respawn_on_death_ct 1
+
+mp_t_default_primary ""
+mp_ct_default_primary ""
+mp_t_default_secondary ""
+mp_ct_default_secondary ""
+mp_t_default_grenades ""
+mp_ct_default_grenades ""
+mp_t_default_melee ""
+mp_ct_default_melee ""
+mp_freezetime 0
+mp_round_restart_delay 0
+mp_free_armor 1
+
+mp_roundtime 10000
+mp_roundtime_defuse 10000
+mp_roundtime_hostage 10000
+
+clear
+echo sv_airaccelerate 12
+echo sv_autobunnyhopping 0
+say sv_airaccelerate 12; sv_autobunnyhopping 0
