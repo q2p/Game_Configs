@@ -6,6 +6,7 @@ sv_airaccelerate 12
 sv_autobunnyhopping 0
 mp_respawn_on_death_t 1
 mp_respawn_on_death_ct 1
+mp_maxmoney 0
 
 mp_t_default_primary ""
 mp_ct_default_primary ""
@@ -17,13 +18,26 @@ mp_t_default_melee ""
 mp_ct_default_melee ""
 mp_freezetime 0
 mp_round_restart_delay 0
-mp_free_armor 1
+mp_free_armor 0
+
+mp_death_drop_breachcharge 0
+mp_death_drop_taser 0
+mp_death_drop_healthshot 0
+mp_death_drop_grenade 0
+mp_death_drop_defuser 0
+mp_death_drop_gun 0
+mp_death_drop_c4 0
+mp_drop_knife_enable 1
 
 mp_roundtime 10000
 mp_roundtime_defuse 10000
 mp_roundtime_hostage 10000
+mp_humanteam T
+mp_buytime 0
+mp_buy_allow_grenades 0
+mp_buy_allow_guns 0
 
 clear
 echo sv_airaccelerate 12
 echo sv_autobunnyhopping 0
-say sv_airaccelerate 12; sv_autobunnyhopping 0
+say "sv_airaccelerate 12; sv_autobunnyhopping 0"
